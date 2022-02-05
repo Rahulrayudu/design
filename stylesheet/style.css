@@ -1,0 +1,625 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Righteous';
+    padding: 0;
+}
+
+#nav{
+    position: static;
+    top: 0;
+}
+
+.navbar{
+    padding: 0; 
+    background: #521755;
+
+}
+
+.in-h1{
+    font-family: Righteous;
+font-size: 96px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: center;
+}
+
+
+.nav-link{
+    font-family: Righteous;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.in-h2{
+    font-family: Righteous;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 79px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.in-h3{
+    font-family: Righteous;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+
+}
+.navbar-brand img{
+    height: 70px;
+    padding-left: 18px;
+}
+
+.navbar-nav{
+    padding-right:70px;
+    margin-top: -10px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    font-weight:bolder;
+    color: #fff !important; 
+}
+
+
+/*---------- using banner------------------- */
+
+
+#banner{
+    color: #fff;
+    background-color: #521755;
+
+}
+
+.col-md-6 h1{
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 100px;
+    font-style: normal;
+}
+
+.cta-btn{
+    background:rgb(29, 140, 236);
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bolder;
+}
+
+.title{
+    text-align: center;
+}
+.ufo{
+    height: 280px;
+    margin: 50px 0 62px 350px;
+}
+
+.bottom-img{
+    width: 100%;
+    height: 257px;
+}
+.bottom{
+    height: 257px;
+}
+
+
+/*------------------------------------------about us---------------------------------------------------------*/
+
+
+
+#about-us{
+    width: 100%;
+    height: max-content;
+    background: linear-gradient(119.66deg, #4A154C 0%, #25306A 73.23%);
+}
+
+.abo1 h1,.abo1 p{
+    text-align: right;
+}
+
+.abo1 img{
+    margin-top: 100px;
+}
+
+.abo2 img{
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-bottom: 45px;
+}
+
+
+
+/*----------------------------------------- our work --------------------------------------------------------*/
+
+.our-work{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background: url(images/wave-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#work-nav{
+    display: flex;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+.logo{
+    height: 43.017555236816406px;
+    width: 2.794219970703125px;
+    left: 68.92138671875px;
+    top: 45.4744873046875px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.nav_work li{
+    list-style: none;
+    display:block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav_work li h1{
+    margin-left: 390px;
+    font-size: 96px;
+}
+
+.work-line{
+    height: 2px;
+    padding: 1px;
+    width: 505px;
+    margin-left: 349px;
+    background: #FFFFFF;
+
+}
+
+.work-para{
+    height: 180px;
+    width: 1418px; 
+    margin: 30px 47px 0 47px;
+    border-radius: 0;
+}
+
+.work-para p{
+    font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+
+/*------------- moon-----------------*/
+
+
+.moon-launch div img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.moon-launch{
+    margin: auto;
+    margin-top: 50px;
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-auto-rows: 280px;
+    margin-bottom: 250px;
+}
+
+.hex{
+    display: flex;
+    position: relative;
+    height: 355px;
+    width: 411px;
+    --webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.hex:first-child {
+    grid-row-start: 1;
+    grid-column: 3 / span 2;
+  }
+  
+  .hex:nth-child(2) {
+    grid-row-start: 2;
+    grid-column: 2 / span 2;
+  }
+  
+  .hex:nth-child(3) {
+    grid-row-start: 2;
+    grid-column: 4 / span 2;
+  }
+  
+  .hex:nth-child(4) {
+    grid-row-start: 3;
+    grid-column: 1 / span 2;
+  }
+  
+  .hex:nth-child(5) {
+    grid-row-start: 3;
+    grid-column: 3 / span 2;
+  }
+  
+  .hex:nth-child(6) {
+    grid-row-start: 3;
+    grid-column: 5 / span 2;
+  }
+
+  .moon-header{
+    font-family: Poppins;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 144px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #022275;
+
+    
+  }
+
+
+  /*-----------------------------------------orbits and other projects------------------------------*/
+.row2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.orbit-header{
+    font-family: Poppins;
+font-size: 96px;
+font-style: normal;
+font-weight: 400;
+line-height: 144px;
+letter-spacing: 0em;
+text-align: center;
+color: #022275;
+
+}
+
+.pro{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.other-projects{
+    width: 70%;
+    margin-left:15%;
+}
+
+.slider{
+    width: 100%;
+    position: relative;
+}
+
+.pro-header{
+    font-family: Poppins;
+font-size: 96px;
+font-style: normal;
+font-weight: 400;
+text-align: center;
+color: #022275;
+
+}
+
+.sld img{
+    width: 200px;
+    height: auto;
+    margin: 0;
+}
+
+
+/*
+.left-arrow{
+    position: absolute;
+    top: 45%;
+    margin-left: -50px;
+    color: #25306A;
+}
+
+.right-arrow{
+    position: absolute;
+    top: 45%;
+    left:95%;
+    color:  #25306A;
+}*/
+/*--------------------------our events----------------------*/
+
+
+.our-event{
+    width: 100%;
+    height: 343px;
+    position: relative;
+    background: url(images/wave-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+}
+
+
+#event-nav{
+    display: flex;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+.logo{
+    height: 43.017555236816406px;
+    width: 2.794219970703125px;
+    left: 68.92138671875px;
+    top: 45.4744873046875px;
+    border-radius: 0px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+.nav_event li{
+    list-style: none;
+    display:block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav_event li h1{
+    margin-left: 390px;
+    font-size: 96px;
+}
+
+.event-line{
+    height: 2px;
+    padding: 1px;
+    width: 505px;
+    margin-left: 349px;
+    background: #FFFFFF;
+
+}
+
+/*--------------------------------cards----------------------------------------*/
+/*
+height: 433px;
+width: 282px;
+left: 100px;
+top: 5455px;
+border-radius: 0px;*/
+
+
+
+.cards{
+    width: 95.3%;
+    margin: 50px 0 0 55px;}
+
+.row-card{
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card{
+    position: relative;
+    height: 433px;
+    width: 282px;  
+    background: linear-gradient(157.48deg, #521755 0.87%, #293576 100%);
+    border-radius: 20px;
+}
+
+
+.card img{
+    position: absolute;
+    height: 207px;
+    width: 215px;  
+    left: 10.86%;
+    right: 76.92%;
+    top: 8.68%;
+}
+
+.card a{
+    position: absolute;
+    color: #fff;
+    top: 66%;
+    left: 25.9%;
+}
+
+.cta-btn1{
+    background:white;
+    color: black !important;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bolder;
+}
+
+
+
+
+/*--------------------contact form------------------------------*/
+.contact{
+    width: 100%;
+    margin-top: 50px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 0;
+}
+
+
+.r1{
+    width: 98%;
+}
+
+input[type=text], input[type=email] , textarea {
+    width: 95%;
+    padding: 6px;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    color: black !important;
+    font-weight: bold;
+    
+  }
+  
+  input[type=submit] {
+     background: rgb(51, 51, 212);
+    color: white;
+    padding: 6px 42px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 74%;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+
+.contact-form{
+    margin-left: 150px;
+
+}
+
+.contact h1{
+    text-align: center;
+}
+  
+#googleMap{
+
+    margin: 120px 0 0 100px;
+}
+
+
+.get{
+    font-family: Righteous;
+font-size: 96px;
+font-style: normal;
+font-weight: 400;
+line-height: 119px;
+letter-spacing: 0em;
+text-align: left;
+color: #433C78;
+
+
+}
+/*---------------------footer---------------------*/
+
+
+
+.footer{
+    width: 100%;
+    height: 276px;
+    position: relative;
+    background-image: url(images/wave-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.r2{
+    width: 98%;
+}
+
+.foot-mail{
+    position: absolute;
+    top: 26%;
+    left: 64%;
+    color: #fff;
+}
+
+.zbc-mail{
+    position: absolute;
+    top: 50%;
+    left: 63%;
+    color: #fff;
+    font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0em;
+}
+
+.l1,.l2,.l3,.l4,.l5{
+    position: absolute;   
+}
+
+.l1{
+    top: 68.6%; 
+    left: 64.78%;
+}
+.l2{
+    top: 68.6%; 
+    left: 67.78%;
+}
+.l3{
+    top: 68.6%; 
+    left: 70.78%;
+}
+.l4{
+    top: 68.6%; 
+    left: 73.78%;
+}
+.l5{
+    top: 68.6%; 
+    left: 76.78%;
+}
+
+.foot-head{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    font-family: Righteous;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 79px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+
+}
+
+.foot-mail{
+    font-family: Righteous;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 79px;
+letter-spacing: 0em;
+}
+.foot-img{
+    position: absolute;
+    top:15.11%;
+    left: 90%;
+}
